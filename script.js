@@ -22,6 +22,7 @@ function secondP(){
     document.getElementById("second-p").style.color = `rgba(${a})`;
     document.getElementById("third-p").style.color = `rgba(${b})`;
     }else{
+        console.log("Повторка");
         while(a==b){
         a = randomNumberRGBA();
         b = randomNumberRGBA();
